@@ -1,7 +1,24 @@
-.App {
-  text-align: center;
+body {
+  background-image: url('./assets/background.jpg');
+  height: 100%;
+  background-size: cover;
+  background-repeat: none;
+  opacity: 0.8;
 }
 
+.App {
+  text-align: center;
+  padding: 5%;
+}
+
+.btn-right {
+  cursor: pointer;
+  float: right;
+}
+
+.list-item {
+  display: inline-block;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
